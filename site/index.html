@@ -562,7 +562,10 @@
 									<div role="form" class="wpcf7" id="wpcf7-f207-o1" lang="de-DE" dir="ltr">
 										<div class="screen-reader-response"></div>
 
-										<form name="test" method="POST" data-netlify="true">
+										<form name="kontakt" method="POST" netlify-honeypot="honig" data-netlify="true">
+											<p class="hidden">
+												<label>Bitte dieses Feld ignorieren!!!<input name="honig" /></label>
+											</p>
 											<p>
 												<label> Name<br />
 													<span class="wpcf7-form-control-wrap name">
