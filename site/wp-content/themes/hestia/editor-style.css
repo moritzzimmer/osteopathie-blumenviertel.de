@@ -11,7 +11,7 @@ ul, ol, .blog-post .section-text p, output {line-height: 1.618;}
 h1, h2, h3, h4, h5, h6 {font-weight: 500;line-height: 1.618;}
 h5.description, h5.subscribe-description, .card-product .price h4, h4.author {font-weight: 300;}
 h6.category {font-weight: 500;}
-.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce.archive .blog-post .products .product-category h2 {font-weight: 700;}
+.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce ul.products[class*="columns-"] li.product-category h2 {font-weight: 700;}
 .hestia-title {word-break: break-word;}
 button, input[type="submit"], input[type="button"], .btn {font-size: 12px;font-weight: 400;}
 .btn:not(.btn-just-icon):not(.btn-fab) .fa {font-size: 18px;}
@@ -187,8 +187,8 @@ blockquote p {font-style: italic;}
 h3 {margin: 20px 0 10px;}
 h5 {margin-bottom: 15px;}
 h6.category {text-transform: uppercase;}
-.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce.archive .blog-post .products .product-category h2 {font-family: "Roboto Slab","Times New Roman",serif;}
-.hestia-title, .hestia-title a, .hestia-title a:hover, .title, .title a, .title a:hover, .card-title, .card-title a, .card-title a:hover, .info-title, .info-title a, .info-title a:hover, .footer-brand, .footer-brand a, .footer-brand a:hover, .footer-big h4, .footer-big h4 a, .footer-big h4 a:hover, .footer-big h5, .footer-big h5 a, .footer-big h5 a:hover, .media .media-heading, .media .media-heading a, .media .media-heading a:hover, .woocommerce.archive .blog-post .products .product-category h2, .woocommerce.archive .blog-post .products .product-category h2 a, .woocommerce.archive .blog-post .products .product-category h2 a:hover {color: #3c4858;text-decoration: none;word-wrap: break-word;}
+.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce ul.products[class*="columns-"] li.product-category h2 {font-family: "Roboto Slab","Times New Roman",serif;}
+.hestia-title, .hestia-title a, .hestia-title a:hover, .title, .title a, .title a:hover, .card-title, .card-title a, .card-title a:hover, .info-title, .info-title a, .info-title a:hover, .footer-brand, .footer-brand a, .footer-brand a:hover, .footer-big h4, .footer-big h4 a, .footer-big h4 a:hover, .footer-big h5, .footer-big h5 a, .footer-big h5 a:hover, .media .media-heading, .media .media-heading a, .media .media-heading a:hover, .woocommerce ul.products[class*="columns-"] li.product-category h2, .woocommerce ul.products[class*="columns-"] li.product-category h2 a, .woocommerce ul.products[class*="columns-"] li.product-category h2 a:hover {color: #3c4858;text-decoration: none;word-wrap: break-word;}
 .page-header .hestia-title {line-height: 1.1;}
 .title-in-content {line-height: 1.3;}
 h1.title, h1.hestia-title, .pricing h2.title, .pricing h2.hestia-title, .contactus h2.title, .contactus h2.hestia-title {margin-bottom: 30px;}
