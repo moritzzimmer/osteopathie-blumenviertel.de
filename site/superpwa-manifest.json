@@ -1,0 +1,23 @@
+{
+    "name": "Osteopathie im Blumenviertel",
+    "short_name": "Osteopathie",
+    "description": "Praxis f\u00fcr Osteopathie im Blumenviertel Berlin Rudow, Neuk\u00f6lln. Termine nach Vereinbarung f\u00fcr Erwachsene, Babies und Kinder.",
+    "icons": [
+        {
+            "src": "https:\/\/PLACEHOLDER.wpsho\/wp-content\/plugins\/super-progressive-web-apps\/public\/images\/logo.png",
+            "sizes": "192x192",
+            "type": "image\/png"
+        },
+        {
+            "src": "https:\/\/PLACEHOLDER.wpsho\/wp-content\/plugins\/super-progressive-web-apps\/public\/images\/logo-512x512.png",
+            "sizes": "512x512",
+            "type": "image\/png"
+        }
+    ],
+    "background_color": "#e91e63",
+    "theme_color": "#e91e63",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": ".",
+    "scope": "\/"
+}
