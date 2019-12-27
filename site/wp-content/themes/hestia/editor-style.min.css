@@ -14,10 +14,10 @@ h6.category {font-weight: 500;}
 .hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce ul.products[class*="columns-"] li.product-category h2 {font-weight: 700;}
 .hestia-title {word-break: break-word;}
 button, input[type="submit"], input[type="button"], .btn {font-size: 12px;font-weight: 400;}
-.btn:not(.btn-just-icon):not(.btn-fab) .fa {font-size: 18px;}
+.btn:not(.btn-just-icon):not(.btn-fab) i {font-size: 18px;}
 .btn.btn-just-icon {font-size: 20px;line-height: 20px;}
 .btn.btn-just-icon.btn-lg {font-size: 22px;}
-.btn .fa {font-size: 17px;}
+.btn i {font-size: 17px;}
 legend {font-size: 21px;}
 output {font-size: 14px;}
 button, input, select, textarea {font-size: inherit;line-height: inherit;}
@@ -38,10 +38,10 @@ table>thead>tr>th {font-size: 17px;font-weight: 300;}
 .wp-caption-text {font-size: 14px;font-weight: 700;}
 .blog-post .comment-reply-link {font-size: 12px;font-weight: 400;}
 .blog-post .section-blog-info .card-profile .description {font-size: 14px;}
-.carousel .carousel-control .fa {font-size: 50px;}
+.carousel .carousel-control i {font-size: 50px;}
 .card .footer .stats {line-height: 30px;}
-.card .footer .stats .fa {font-size: 18px;}
-.card .category .fa {line-height: 0;}
+.card .footer .stats i {font-size: 18px;}
+.card .category i {line-height: 0;}
 .card-product .footer h4 {line-height: 1.2;}
 .card-title, .card-product .category {line-height: 1.4;}
 .card-pricing .card-title {font-size: 60px;line-height: 35px;}
@@ -49,10 +49,10 @@ table>thead>tr>th {font-size: 17px;font-weight: 300;}
 .card-pricing .card-title small:first-child {font-size: 26px;}
 .navbar .navbar-brand {line-height: 30px;}
 .navbar .navbar-nav>li>a {font-weight: 400;}
-.navbar .navbar-nav>li>a .fa {font-size: 20px;}
+.navbar .navbar-nav>li>a i {font-size: 20px;}
 .navbar .dropdown-menu li>a {font-size: 13px;}
 .navbar .dropdown-menu li>a>i {font-size: 20px;}
-.navbar .dropdown-menu li>a .fa {font-size: 20px;}
+.navbar .dropdown-menu li>a i {font-size: 20px;}
 .navbar .hestia-mm-heading>span {font-size: 14px;font-weight: 600;}
 .hestia-mm-description {font-size: 12px;font-weight: 400;}
 .hestia-top-bar {line-height: 40px;}
@@ -173,9 +173,9 @@ aside .widget a {font-weight: 500;}
 	.woocommerce-cart table.shop_table td.product-name {line-height: 30px;}
 	.woocommerce-checkout td.product-name dl.variation dt, .woocommerce-checkout td.product-name dl.variation dd {font-size: 16px;}
 	.woocommerce-checkout td.product-name dl.variation dd p {font-size: 16px;}
-	.navbar .navbar-nav li>a>i, .navbar .navbar-nav li>a .fa {font-size: 22px;}
+	.navbar .navbar-nav li>a>i, .navbar .navbar-nav li>a i {font-size: 22px;}
 	.navbar .navbar-nav li .caret {font-size: 20px;}
-	.navbar .navbar-nav li .dropdown>i, .navbar .navbar-nav li .dropdown .fa {font-size: 20px;}
+	.navbar .navbar-nav li .dropdown>i, .navbar .navbar-nav li .dropdown i {font-size: 20px;}
 	.navbar .navbar-nav .dropdown .dropdown-menu li a {line-height: 20px;}
 	.navbar .navbar-nav .dropdown .dropdown-menu li a .caret {line-height: 1;}}
 @media (max-width: 480px) {.woocommerce .woocommerce-ordering select, .woocommerce-page .woocommerce-ordering select {font-size: 12px;}}
@@ -189,7 +189,7 @@ h5 {margin-bottom: 15px;}
 h6.category {text-transform: uppercase;}
 .hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce ul.products[class*="columns-"] li.product-category h2 {font-family: "Roboto Slab","Times New Roman",serif;}
 .hestia-title, .hestia-title a, .hestia-title a:hover, .title, .title a, .title a:hover, .card-title, .card-title a, .card-title a:hover, .info-title, .info-title a, .info-title a:hover, .footer-brand, .footer-brand a, .footer-brand a:hover, .footer-big h4, .footer-big h4 a, .footer-big h4 a:hover, .footer-big h5, .footer-big h5 a, .footer-big h5 a:hover, .media .media-heading, .media .media-heading a, .media .media-heading a:hover, .woocommerce ul.products[class*="columns-"] li.product-category h2, .woocommerce ul.products[class*="columns-"] li.product-category h2 a, .woocommerce ul.products[class*="columns-"] li.product-category h2 a:hover {color: #3c4858;text-decoration: none;word-wrap: break-word;}
-.page-header .hestia-title {line-height: 1.1;}
+.page-header .hestia-title {line-height: 1.4;}
 .title-in-content {line-height: 1.3;}
 h1.title, h1.hestia-title, .pricing h2.title, .pricing h2.hestia-title, .contactus h2.title, .contactus h2.hestia-title {margin-bottom: 30px;}
 h2.title, h2.hestia-title {margin-bottom: 10px;}
@@ -197,6 +197,7 @@ h2.title, h2.hestia-title {margin-bottom: 10px;}
 .carousel span.sub-title {display: block;margin: 10px 0 0;font-family: "Roboto Slab","Times New Roman",serif;}
 .carousel .buttons {margin-top: 60px;}
 .description, .card-description, .footer-big {color: #999;}
+.card-description.entry-content {color: #3c4858;}
 .subscribe-line-image .subscribe-description {color: #efefef;}
 .text-warning {color: #ff9800;}
 .text-primary {color: #9c27b0;}
