@@ -9,7 +9,7 @@ services:
       - MARIADB_DATABASE=bitnami_wordpress
       - ALLOW_EMPTY_PASSWORD=yes
   wordpress:
-    image: 'bitnami/wordpress:5.1.0'
+    image: 'bitnami/wordpress:5.3.2'
     labels:
       kompose.service.type: nodeport
     ports:
